@@ -1,0 +1,20 @@
+<div id="nav">
+  <div id="nav-btns">
+    <h3 class="nav-logo">IT BROS</h3>
+    <a routerLink="home" class="nav-btn">Home</a>
+    <a routerLink="about" class="nav-btn">About</a>
+    <a routerLink="events" class="nav-btn">Events</a>
+    <a routerLink="contacts" class="nav-btn">Contacts</a>
+
+    <a (click)="clicked.emit()" class="nav-btn">Sidebar</a>
+  </div>
+
+  <div id="search">
+    <input placeholder="Press Enter To Start The Search!" [(ngModel)]="search" type="text"
+           class="searchbar">
+
+    <div id="search-results">
+      <a class="search-link" *ngFor="let link of links" routerLink="{{link}}">{{link}}</a>
+    </div>
+  </div>
+</div>

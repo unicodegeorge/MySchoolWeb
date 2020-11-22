@@ -1,0 +1,7 @@
+<form id="contact-form">
+  <h1>Contact Form</h1>
+  <input placeholder="Your Name" type="text" name="name" class="contact-input" [(ngModel)]="name">
+  <input placeholder="Your Email Address" type="text" name="email" class="contact-input" [(ngModel)]="email">
+  <textarea placeholder="Your message" name="zprava" class="contact-textarea" [(ngModel)]="zprava"></textarea>
+  <button class="form-button" (click)="send()">send</button>
+</form>

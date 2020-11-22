@@ -1,0 +1,32 @@
+#toggle-sidebar {
+  background-color: white;
+  border: 3px solid #9F2042;
+  color: #9F2042;
+  position: absolute;
+  left: 10px;
+  top: 20%;
+  padding: 10px;
+  transition: 1s ease;
+}
+
+#toggle-sidebar:hover {
+  background-color: #9F2042;
+  color: white;
+}
+#sidebar {
+  position: absolute;
+  top: 25%;
+  width: 300px;
+  left: 10px;
+  background-color: #9F2042;
+  height: 300px;
+  text-align: center;
+  color: white;
+
+}
+
+
+#toggle-sidebar:focus {
+  outline: none;
+
+}
