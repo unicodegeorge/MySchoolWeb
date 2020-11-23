@@ -32,16 +32,23 @@
   width: 100%;
   flex-direction: column;
   display: flex;
+  border: 1px solid black;
 
 }
+.search-link:hover {
+  background-color: whitesmoke;
+  color: #9F2042;
 
+}
 .search-link {
   padding: 10px;
   font-weight: bolder;
   text-decoration: none;
   text-align: center;
+  background-color: #9F2042;
+  transition: 1s ease;
 
-  color: #9F2042;
+  color: white;
 }
 #toggle-sidebar {
   height: 30px;

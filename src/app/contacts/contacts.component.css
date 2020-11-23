@@ -18,6 +18,12 @@
   transition: 1s ease;
 }
 
+ *::placeholder {
+   color: #9F2042;
+ }
+
+
+
 .contact-input {
   margin-bottom: 40px;
   width: 350px;

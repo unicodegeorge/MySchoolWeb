@@ -6,8 +6,8 @@ import {Component, OnInit, Output, EventEmitter} from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  @Output()
-  clicked = new EventEmitter<void>();
+    @Output()
+    clicked = new EventEmitter<void>();
   constructor() { }
   search = '';
   routes = ['home', 'about', 'contacts', 'events'];

@@ -1,3 +1,9 @@
+<h1 class="title" style="position: relative; top: 20vh">Upcoming Events</h1>
 <div id="events">
+  <div  *ngFor="let event of events" class="event">
+    <div class="bar"><p class="event-date">{{event.date}} - {{event.time}}</p></div>
+    <h3 class="event-title">{{event.name}}</h3>
 
+
+  </div>
 </div>
